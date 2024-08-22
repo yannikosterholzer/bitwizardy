@@ -6,6 +6,7 @@ I haven't seen them mentioned anywhere else, but they've proven to be effective 
 When converting a binary number in two's complement to its decimal equivalent, start with the most significant bit (MSB). 
 If this bit is a 1, followed by consecutive 1s, identify the lowest 1 in the sequence (right before the first 0). 
 Convert the position of this bit into its corresponding negative power of 2, and then add all the values from the lower bits to this sum. 
+
 For example, the binary number **11110101** would be calculated as **-16** (from the position of the lowest 1 in the sequence) plus **5** (the sum of the values of the lower bits), resulting in **-11**.
 
 ## negative Decimal number -> Binary
