@@ -1,4 +1,4 @@
-# Fast method of signed number conversion
+# Fast method of signed number conversion (two's complement)
 Here are simple and quick methods I discovered for converting signed numbers in my head. 
 I haven't seen them mentioned anywhere else, but they've proven to be effective for me.
 
