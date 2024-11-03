@@ -1,5 +1,5 @@
 # Fast method of signed number conversion (two's complement)
-Here are simple and quick methods I discovered for converting signed numbers in my head. 
+Here are simple and quick methods I discovered for converting signed numbers by hand. 
 I haven't seen them mentioned anywhere else, but they've proven to be effective for me.
 
 ## Binary -> Decimal
