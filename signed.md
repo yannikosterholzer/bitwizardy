@@ -18,3 +18,6 @@ Combine this difference with the first binary string using a logical OR operatio
 
 For instance, converting **-30** would involve rounding the absolute value **30** up to **32** and add the leading 1´s, resulting in 1110000. 
 Then, subtracting **30** from **32** gives **2**, which in binary is **0000010**. Combining these results gives **1110010**, the two's complement of **-30**.
+
+## both directions
+Start with the **least significant bit** and move toward the more significant bits. Keep all bits the same **until and including** the first encountered `1`. From that point onward, **invert all remaining bits**.
