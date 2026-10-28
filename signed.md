@@ -16,8 +16,9 @@ This power of two determines how far the binary representation will be filled wi
 The remaining bits are set to zero. Then, calculate the difference between the absolute value and the power of two you rounded to. 
 Combine this difference with the first binary string using a logical OR operation. 
 
-For instance, converting **-30** would involve rounding the absolute value **30** up to **32** and add the leading 1´s, resulting in 1110000. 
-Then, subtracting **30** from **32** gives **2**, which in binary is **0000010**. Combining these results gives **1110010**, the two's complement of **-30**.
+For instance, converting **-30** to 8-bit two's complement would involve rounding the absolute value **30** up to **32** (= 2⁵) and adding the leading 1s from the MSB down to bit 5, resulting in **11100000**.
+Then, subtracting **30** from **32** gives **2**, which in binary is **00000010**. Combining these results with OR gives **11100010**, the 8-bit two's complement of **-30**.
 
-## both directions
+
+## both directions (another, but popular method method)
 Start with the **least significant bit** and move toward the more significant bits. Keep all bits the same **until and including** the first encountered `1`. From that point onward, **invert all remaining bits**.
