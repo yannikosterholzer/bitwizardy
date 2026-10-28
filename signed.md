@@ -1,6 +1,7 @@
-# Fast method of signed number conversion (two's complement)
-Here are simple and quick methods I discovered for converting signed numbers by hand. 
-I haven't seen them mentioned anywhere else, but they've proven to be effective for me.
+# Fast methods for signed number conversion (two's complement)
+Here are some simple and quick methods I discovered for converting signed numbers by hand.
+I haven't seen the first two mentioned anywhere else, but they have proven effective for me.
+I also added a third one: it's a rather well-known method, but I like it too.
 
 ## Binary -> Decimal
 When converting a binary number in two's complement to its decimal equivalent, start with the most significant bit (MSB). 
